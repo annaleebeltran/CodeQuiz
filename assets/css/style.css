@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.prompt-title {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: black;
+}
+
+.prompt {
+  background-color: rgb(238, 163, 204);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: black;
+  font-size: 25px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+}
+
+.prompt-message {
+  min-height: 100px;
+}
+
+.prompt-button {
+  text-align: center;
+}
+
+.prompt-luck{
+    text-align: center;
+}
+.btn {
+  border: none;
+  background-color: rgb(85, 16, 16);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color:white;
+  display: inline-block;
+  font-size: 25px;
+  line-height: 25px;
+  margin: 16px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: default;
+  background: #c0c7cf;
+}
+
+
+

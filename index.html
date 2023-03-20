@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODE-QUIZ</title>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
+
 <body>
+    <main>
+        <section class="prompt">
+            <header class="prompt-title">
+                <h2>Challenge: Code Quiz</h2>
+            </header>
+            <p class="prompt-message">
+                You have one minute to answer all questions correctly.
+                For every wrong answer, 10 seconds will be subracted from
+                your time.
+            </p>
+            <p class="prompt-luck">
+                GOOD LUCK!
+            </p>
+            <div class="prompt-button">
+                <button id="start" class="btn">BEGIN</button>
+            </div>
+        </section>
+        <section class="timer-card">
+            <h3>TIME LEFT</h3>
+            <p class="timer-text"></p>
+            <p class="timer-clock">1:00</p>
+            
+        </section>
+        <section>
+            <h2> High Scores:</h2>
+            <p id = "Initials">Initials: </p>
+            <p id="Highscore">Highscore: </p>
+            
+        </section>
     
+    </main>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
