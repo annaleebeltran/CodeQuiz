@@ -12,7 +12,10 @@
 
 <body>
     <main>
-        <section class="prompt">
+        <header>
+            <a id="highscore" href="highSCORE">HIGHSCORES</a>
+        </header>
+        <section id="prompt" class="promptPage">
             <header class="prompt-title">
                 <h2>Challenge: Code Quiz</h2>
             </header>
@@ -25,24 +28,39 @@
                 GOOD LUCK!
             </p>
             <div class="prompt-button">
-                <button id="start" class="btn">BEGIN</button>
+                <button id="start">BEGIN</button>
             </div>
         </section>
         <section class="timer-card">
-            <h3>TIME LEFT</h3>
-            <p class="timer-text"></p>
-            <p class="timer-clock">1:00</p>
-            
+            <h3>TIME LEFT:</h3>
+            <p id="timer" class="timer-clock">1:00</p>
         </section>
-        <section>
-            <h2> High Scores:</h2>
-            <p id = "Initials">Initials: </p>
-            <p id="Highscore">Highscore: </p>
-            
+
+        <section id="questionDisplay" class="hidePage">
+            <h2 id="questionChoice"></h2>
+            <div id="answerList"></div>
+            <hr>
+            <div id="correction">Correct!</div>
         </section>
-    
+
+        <section id="allDone" class="hidePage">
+            <h2>You are all done!</h2>
+            <p>Final score is:<span id="scoreDisplay"></span></p>
+            <br>
+            <p>Enter your initials: 
+                <input type="text" name="initials" id="initialsInput">
+                <button id="submitInitials">SUBMIT</button>
+            </p>
+        </section>
+
+        <section id="highscorePage" class="hidePage">
+            <h2>HIGHSCORES</h2>
+            <div id="highscoresList"></div>
+            <button id="goBack">Start Over</button>
+            <button id="clearHigh">Clear Highscores</button>
+        </section>
     </main>
-    <script src="./assets/js/script.js"></script>
+     <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

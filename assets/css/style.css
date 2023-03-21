@@ -26,7 +26,6 @@ header {
   background-color: rgb(238, 163, 204);
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: black;
   font-size: 25px;
   margin: 0 auto;
@@ -45,7 +44,7 @@ header {
 .prompt-luck{
     text-align: center;
 }
-.btn {
+#start {
   border: none;
   background-color: rgb(85, 16, 16);
   border-radius: 25px;
@@ -66,5 +65,7 @@ button[disabled] {
   background: #c0c7cf;
 }
 
-
+.hidePage {
+  display: none;
+}
 
