@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODE-QUIZ</title>
-    <link rel="stylesheet" href="./assets/css/reset.css"/>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/reset.css"/>
+    <link rel="stylesheet" href="./assets/style.css"/>
 </head>
 
 <body>
@@ -31,7 +31,8 @@
                 <button id="start">BEGIN</button>
             </div>
         </section>
-        <section class="timer-card">
+
+        <section id="timerDisplay" class="timer-card">
             <h3>TIME LEFT:</h3>
             <p id="timer" class="timer-clock">1:00</p>
         </section>
@@ -40,7 +41,7 @@
             <h2 id="questionChoice"></h2>
             <div id="answerList"></div>
             <hr>
-            <div id="correction">Correct!</div>
+            <div id="correction"></div>
         </section>
 
         <section id="allDone" class="hidePage">
@@ -60,7 +61,7 @@
             <button id="clearHigh">Clear Highscores</button>
         </section>
     </main>
-     <script src="./assets/js/script.js"></script>
+     <script src="./assets/script.js"></script>
 </body>
 
 </html>
